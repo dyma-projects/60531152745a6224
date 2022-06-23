@@ -2,6 +2,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "strictPropertyInitialization":false,
     "downlevelIteration": true,
     "module": "es2020",
     "outDir": "./dist/out-tsc",

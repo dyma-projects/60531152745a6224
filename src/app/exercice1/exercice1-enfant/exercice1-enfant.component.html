@@ -1,9 +1,10 @@
 <br />
 <span> valeur du compteur : </span>
+<span #refResult>{{ result }}</span>
 <br />
 <br />
-<button> + </button>
+<button (click)="increment(refResult)"> + </button>
 <br />
 <br />
-<button> - </button>
+<button (click)="decrement(refResult)"> - </button>
 <br>

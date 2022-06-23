@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit, ViewChild, ElementRef, ViewChildren, QueryList, Output, EventEmitter } from '@angular/core';
+import { Exercice1EnfantComponent } from './exercice1-enfant/exercice1-enfant.component';
 
 @Component({
   selector: 'app-exercice1',
@@ -6,11 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./exercice1.component.css']
 })
 export class Exercice1Component implements OnInit {
-  public compteur: number = 0; 
+
+  public result: number = 0;
 
   constructor() { }
 
   ngOnInit() {
+
   }
+
 
 }
